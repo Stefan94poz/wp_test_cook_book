@@ -34,6 +34,7 @@ Could not create propper solution for it so i added pending recipes in Recipe cu
 
 
 Bonus:
+
 1.Use AJAX for recipe submission [Not Done]
 
 2.Add "Theme options" custom menu to admin sidebar where he can upload an image that will be shown as default if no image is uploaded for a recipe [Done]
