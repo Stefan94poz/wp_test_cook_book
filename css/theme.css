@@ -1,0 +1,288 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #F0F0F0;
+}
+h1,
+h2,
+h3 {
+    font-family: 'Acme', sans-serif;
+}
+a {
+    color: #ff6200;
+}
+
+.page-template-page-recepies article:hover a {
+    color: #4FDD86;
+    text-decoration: none;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+}
+.menu-header-menu-container ul,
+.menu-footer-navigation-container ul {
+    margin:0px;
+    padding:0px;
+    display: block;
+    list-style:none;
+    text-align:center;
+}
+.menu-header-menu-container ul li,
+.menu-footer-navigation-container ul li{
+    display: inline;
+    margin-right: 30px 
+}
+.menu-header-menu-container ul li:last-child,
+.menu-footer-navigation-container ul li:last-child{
+    margin-right: 0px 
+}
+
+.menu-header-menu-container ul li a{
+   text-decoration: none;
+   color:#fff;
+   font-size:16px;
+   font-weight: 700;
+}
+.menu-footer-navigation-container ul li a{
+    text-decoration: none;
+    color:#ff6200;
+    font-size:16px;
+    font-weight: 700;
+ }
+header nav {
+    background-color: #ff6200;
+    padding:15px 0px;
+    border-bottom: 3px solid #4FDD86;
+}
+header nav ul li:hover a,
+footer ul li:hover a{
+    color: #31ca6c;
+}
+article img {
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.page-template-page-recepies article {
+    flex: 0 0 23%;
+    position: relative;
+    background: #fff;
+    max-height: 400px !important;
+    border-radius: 10px;
+    box-shadow: 0px 1px 11px 2px #00000075;
+    transition: all 0.3s ease-in-out;
+    margin: 25px 0px;
+    
+}
+.page-template-page-recepies article img {
+    display: block;
+    width: 100%;
+    height: auto;
+    max-height: 150px;
+    object-fit: cover;
+    border-radius: 10px 10px 0px 0px;
+}
+.page-template-page-recepies article:hover {
+    transform: scale(1.05);
+}
+
+footer {
+    background-color: #FFCD55;
+    padding:15px 0px;
+}
+
+.single-post img,
+.single-recipes img{
+    max-height:400px;
+}
+.single-post h1,
+.single-recipes h1 {
+   text-align: center;
+   margin-bottom: 25px;
+   color: #4fdd86;
+}
+
+/*Submit Recepie page*/
+
+form.recepie-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    padding: 25px;
+    background-color: #BC2736;
+    border-radius: 5px;
+    margin: 50px auto;
+}
+.page-template-page-submit-recepies  h1 {
+    text-transform: uppercase;
+    font-weight: 600;
+    text-align: center;
+    margin: 35px 0px;
+}
+form.recepie-form input{
+    margin-bottom: 35px;
+    box-sizing: border-box;
+   
+}
+form.recepie-form input,
+form.recepie-form textarea {
+    border-radius: 3px;
+    border:none;
+    padding:5px 10px;
+}
+form.recepie-form textarea {
+    height: 150px;
+    
+}
+.page-template-page-submit-recepies button.btn.btn-primary {
+    max-width: 200px;
+    margin: 0 auto;
+    margin-top: 25px;
+    background-color: #31ca6c;
+    border-color: #31ca6c;
+    font-weight: 700;
+    padding: 15px 45px;
+}
+
+.page-template-page-submit-recepies button.btn.btn-primary:hover {
+   
+    background-color: #FFCD55;
+    border-color: #FFCD55;
+}
+.page-template-page-submit-recepies label{
+  color:#fff !important;
+  font-size:18px;
+  font-weight:700;
+}
+
+
+.main-container {
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1170px;
+    margin: 0 auto;
+    justify-content: space-evenly;
+    padding: 40px 0px;
+}
+
+.post-content {
+    padding: 15px;
+}
+h3.entry-title {
+    font-size: 20px;
+    font-weight: 700;
+}
+table#wp-calendar {
+    margin: 0px !important;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+table#wp-calendar caption {
+    font-size: 35px;
+    color: #ff6200;
+    font-weight: 500;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+div#sidebar table#wp-calendar td,
+div#sidebar table#wp-calendar tr {
+    text-align:center;
+}
+.pagination-wraper {
+    margin-top: 25px;
+}
+.pagination-wraper a {
+    font-size: 18px;
+    font-weight: 700;
+    
+}
+
+.pagination-wraper a:hover {
+   text-decoration: none;
+   color:#4FDD86;
+    
+}
+
+div#calendar_wrap {
+    background-color: #fff;
+    padding: 15px 10px;
+    border-radius:8px;
+    box-sizing: border-box;
+}
+
+div#calendar_wrap th {
+    text-align: center;
+}
+
+div#calendar_wrap td {
+    text-align: center;
+}
+
+#calendar_wrap td#today {
+    font-weight: 700;
+    color: #ff6200;
+}
+.sidebar-wraper #gallery-1 {
+    margin: auto;
+    margin-top: 20px;
+}
+
+p.alert {
+    width: 100%;
+    max-width: 320px;
+    max-height: 50px;
+    text-align: center;
+    background-color: #fff;
+    border-bottom: 4px solid #4fdd86;
+}
+
+@media(max-width:1180px){
+    .page-template-page-recepies article {
+            flex: 0 0 30%;
+    }
+}
+@media(max-width:900px){
+    .page-template-page-recepies article {
+            flex: 0 0 45%;
+    }
+    .single-post h1, 
+    .single-recipes h1 {
+        font-size: 32px;
+    }
+    .page-template-page-recepies article img {
+        max-height: 170px;
+    }
+}
+@media(max-width:767px){
+    .pagination-wraper .col-md-6.text-left,
+    .pagination-wraper .col-md-6.text-right {
+        width: 50%;
+        display: inline-block;
+    }
+    .pagination-wraper a {
+        font-weight: 700;
+    }
+
+    .pagination-wraper .col-xs-6.text-left,
+    .pagination-wraper .col-xs-6.text-right {
+        display: inline-block;
+        width: 50%;
+    }
+}
+
+@media(max-width:550px){
+    .page-template-page-recepies article img {
+        max-height: 265px;
+    }
+    .page-template-page-recepies article {
+            flex: 0 0 80%;
+    }
+}
+

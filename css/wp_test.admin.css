@@ -1,0 +1,17 @@
+p.admin-thumbnail-p {
+    display: inline;
+    margin-right: 25px;
+    vertical-align: -webkit-baseline-middle;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+h1.admin-thumbnail-h1 {
+    margin-bottom: 55px;
+}
+
+img#admin-thumbnail-image {
+    max-height: 250px;
+    height: auto;
+    margin-top: 15px;
+}
