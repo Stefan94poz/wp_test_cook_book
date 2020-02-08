@@ -41,5 +41,6 @@ Bonus:
 
 3.Pagination on home page [Done]
 
-P.S 
+P.S.
+
 I have left 2 posts on pending so you can test it, also the first two posts have default thumbnail image that you can change in admin panel.
