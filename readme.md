@@ -40,3 +40,6 @@ Bonus:
 2.Add "Theme options" custom menu to admin sidebar where he can upload an image that will be shown as default if no image is uploaded for a recipe [Done]
 
 3.Pagination on home page [Done]
+
+P.S 
+I have left 2 posts on pending so you can test it, also the first two posts have default thumbnail image that you can change in admin panel.
