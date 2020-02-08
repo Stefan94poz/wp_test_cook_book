@@ -18,7 +18,7 @@ WP development assignment report
 4.Recipes are not public until admin approves them [Done]
 5.Add "New recipes" custom menu to admin sidebar where admin can approve a recipe (show them in a table) 
 
-    Could not create propper solution for it so i added pending recipes in Recipe custom post. Only publish posts will be shown on fron-tend.
+ Could not create propper solution for it so i added pending recipes in Recipe custom post. Only publish posts will be shown on fron-tend.
         
 6.Create home page with approved recipes, single recipe page, and "submit a recipe" page [Done]
 7.Create simple header with navigation [Done]
