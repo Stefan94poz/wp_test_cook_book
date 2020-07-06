@@ -22,7 +22,7 @@ p {
     font-family: 'Montserrat', sans-serif;
 }
 .menu-header-menu-container ul,
-.menu-footer-navigation-container ul {
+footer .menu  ul {
     margin:0px;
     padding:0px;
     display: block;
@@ -30,12 +30,12 @@ p {
     text-align:center;
 }
 .menu-header-menu-container ul li,
-.menu-footer-navigation-container ul li{
+footer .menu ul li{
     display: inline;
     margin-right: 30px 
 }
 .menu-header-menu-container ul li:last-child,
-.menu-footer-navigation-container ul li:last-child{
+footer .menu  ul li:last-child{
     margin-right: 0px 
 }
 
@@ -45,12 +45,14 @@ p {
    font-size:16px;
    font-weight: 700;
 }
-.menu-footer-navigation-container ul li a{
+footer .menu  ul li a{
     text-decoration: none;
     color:#ff6200;
     font-size:16px;
     font-weight: 700;
  }
+
+ 
 header nav {
     background-color: #ff6200;
     padding:15px 0px;
