@@ -5,7 +5,7 @@ Use clean WP installation.
 2.Create Submit a recepie  page and add Submit recepie template.
 
 ---
-*** NOTE ***
+<b>NOTE</b>
 - When u add recepie in forntend you need to verified in backend  to be shown. 
 - You can change text, image, delete or update recepies in custom Recepies post.
 - All images have thumbnail default image that can be chaged on backend by going to Thumbnail image.
