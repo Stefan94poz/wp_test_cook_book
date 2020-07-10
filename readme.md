@@ -1,8 +1,11 @@
 # wp_test_Cookbook
 
 Use clean WP installation. 
+
 1.Create Homeplage and add Recepie Homepage tempalte.
+
 2.Create Submit a recepie  page and add Submit recepie template.
+
 
 ---
 <b>NOTE</b>
