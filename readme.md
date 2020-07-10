@@ -9,7 +9,7 @@ Use clean WP installation.
 
 ---
 <b>NOTE</b>
-- When u add recepie in forntend you need to verified in backend  to be shown. 
+- When u add recepie in forntend you need to verified it in backend  to be shown. 
 - You can change text, image, delete or update recepies in custom Recepies post.
 - All images have thumbnail default image that can be chaged on backend by going to Thumbnail image.
 -----
