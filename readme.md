@@ -2,7 +2,7 @@
 
 Use clean WP installation. 
 
-1.Create Homeplage and add Recepie Homepage tempalte.
+1.Create Homeplage and add Recepie Homepage template.
 
 2.Create Submit a recepie  page and add Submit recepie template.
 
